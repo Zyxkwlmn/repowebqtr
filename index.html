@@ -20,20 +20,24 @@
 
             <ul class="nav__link nav__link--menu">
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Servicios</a>
+                    <a href="#servicios" class="nav__links">Servicios</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Espcialistas</a>
+                    <a href="#especialistas" class="nav__links">Especialistas</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Ubícanos</a>
+                    <a href="#mapa" class="nav__links">Ubícanos</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Preguntas Frecuentes</a>
+                    <a href="#preguntas" class="nav__links">Preguntas Frecuentes</a>
                 </li>
-                <li class="nav__items">
+                
+              <!-- Comentamos esto porque no tenemos funcion de ingresar para el usuario
+                 <li class="nav__items">
                     <a href="#" class="nav__links">Ingresar</a>
                 </li>
+                 -->
+
                 <img src="./images/close.svg" class="nav__close" alt="Veterinaria">
             </ul>
 
@@ -41,6 +45,7 @@
                 <img src="./images/menu.svg" class="nav__img" alt="Veterinaria Huancayo">
             </div>
         </nav>
+
         <section class="hero__container container">
             <h1 class="hero__title">Porque la salud de tu mascota no es un juego</h1>
             <p class="hero__paragraph">Ofrecemos servicios de grooming, consultas de especialidad, planes de vacunación, internamientos, tienda para mascotas y mucho más.
@@ -50,46 +55,46 @@
     </header>
 
     <main>
-        <section class="container about">
-            <h2 class="subtitle">¿Qué servicios ofrecemos?</h2>
+        <section id="servicios" class="container about">
+            <h2  class="subtitle">¿Qué servicios ofrecemos?</h2>
             <p class="about__paragraph">Tenemos lo que tu mascota necesita</p>
 
             <div class="about__main">
                 <article class="about__icons">
-                    <img src="./images/medvet.webp" class="about__icon rounded-circle" >
+                    <img src="./images/atencion_vet.jpg" class="about__icon rounded-circle" >
                     <h3 class="about__title">Medicina Veterinaria</h3>
-                    <p class="about_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nam assumenda autem quibusdam.</p>
+                    <p class="about_paragraph">Cuidado profesional para la salud y bienestar de tu mascota..</p>
                 </article>
 
                 <article class="about__icons">
-                    <img src="./images/grooming.webp" class="about__icon rounded-circle" >
+                    <img src="./images/grooming_vet.jpg" class="about__icon rounded-circle" >
                     <h3 class="about__title">Grooming</h3>
-                    <p class="about_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nam assumenda autem quibusdam.</p>
+                    <p class="about_paragraph">Baño, corte y cuidado estético para que tu mascota luzca y se sienta bien.</p>
                 </article>
 
                 <article class="about__icons">
-                    <img src="./images/petvet.webp" class="about__icon rounded-circle" >
+                    <img src="./images/otros_servicios.jpg" class="about__icon rounded-circle" >
                     <h3 class="about__title">Otros servicios</h3>
-                    <p class="about_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nam assumenda autem quibusdam.</p>
+                    <p class="about_paragraph">Venta de alimentos, juguetes y accesorios para su felicidad y comodidad.</p>
                 </article>
             </div>
         </section>
 
-        <section class="staffvet">
+        <section id="especialistas" class="staffvet">
             <div class="staffvet__container container">
                <div class="staffvet__texts">
                    <h2 class="subtitle"> Nuestros especialistas</h2>
-                  <p class="staffvet__paragraph"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi,
-                    aliquam nemo in facere suscipit at delectus unde labore ad officia iste accusantium eaque
-                    aperiam laborum est voluptate totam? Modi, obcaecati?</p>
+                  <p class="staffvet__paragraph"> Nuestros especialistas son profesionales altamente capacitados y con una profunda vocación por el bienestar animal. Con años de experiencia y formación continua, están preparados para ofrecer un servicio integral que abarca desde consultas veterinarias y diagnósticos hasta servicios de grooming y asesoramiento en nutrición. Nos caracterizamos por brindar una atención cercana, personalizada y basada en el respeto y amor hacia cada mascota. Entendemos que cada animal es único, por lo que adaptamos nuestros cuidados a sus necesidades específicas, garantizando así su salud, confort y felicidad en cada visita.</p>
+              <!-- Comentamos esto porque no tenemos funcion de este boton                
                 <a href="#" class="cta">Saber más</a>
+               -->
             </div>
             <figure class="staffvet__picture">
                 <img src="./images/pet1.jpg" alt="Veterinaria Que tal Raza" class="staffvet__img">
             </figure>
         </section>
 
-        <section>
+        <section id="mapa">
             <div class="container__map container">
                  <h2 class="subtitle"> ¿Cómo ubicarnos?</h2>
                  <p class="map__paragraph">Conoce las instalaciones de nuestra Clínica Veterinaria y ubícalas con mayor facilidad.</p>
@@ -105,51 +110,45 @@
 
                 <section class="testimony__body testimony__body--show" data-id="1">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Metemos algo aqui, <span>Referente a la Veterinaria.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem
-                            blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                        <h2 class="subtitle"> 🏥🐾La clave para una mascota saludable</h2>
+                        <p class="testimony__review">Las visitas regulares al veterinario son fundamentales para detectar y prevenir enfermedades antes de que se conviertan en un problema grave. Un chequeo completo incluye la revisión de peso, piel, oídos, dientes y signos de posibles padecimientos. Además, el veterinario podrá asesorarte sobre la mejor alimentación, hábitos y cuidados específicos para tu mascota. No esperes a que aparezcan síntomas, la prevención es el mejor tratamiento.</p>
                     </div>
 
                     <figure class="testimony__picture">
-                        <img src="./images/pet1.jpg" class="testimony__img">
+                        <img src="./images/chequeo_vet.jpg" class="testimony__img">
                     </figure>
                 </section>
 
                 <section class="testimony__body" data-id="2">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Metemos algo aqui, <span>Referente a la Veterinaria.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
-                            voluptatum!</p>
+                        <h2 class="subtitle">🦷<span>Dientes sanos, mascotas felices🐶</span></h2>
+                        <p class="testimony__review">La salud bucal es un aspecto fundamental del bienestar de tu mascota. El sarro y las bacterias pueden causar problemas graves como gingivitis, pérdida de dientes e incluso infecciones que afecten otros órganos. Para prevenir esto, es recomendable el cepillado regular con productos adecuados para mascotas, así como el uso de snacks dentales. Una revisión veterinaria periódica también es clave para mantener su sonrisa saludable y libre de enfermedades.</p>
                     </div>
 
                     <figure class="testimony__picture">
-                        <img src="./images/pet2.jpg" class="testimony__img">
+                        <img src="./images/salud_dental.jpg" class="testimony__img">
                     </figure>
                 </section>
 
                 <section class="testimony__body" data-id="3">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Metemos algo aqui, <span>Referente a la Veterinaria.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                        <h2 class="subtitle">🍖 Una alimentación balanceada, una vida mejor 🐕</span></h2>
+                        <p class="testimony__review">Cada mascota tiene necesidades nutricionales específicas según su raza, edad y estado de salud. Una alimentación de calidad fortalece su sistema inmunológico, mejora su digestión y le proporciona la energía necesaria para su día a día. Es importante elegir alimentos adecuados y evitar productos dañinos como chocolate, cebolla o huesos pequeños que puedan causar problemas digestivos. Consulta con tu veterinario para asegurarte de que tu mascota recibe los nutrientes que necesita.</p>
                     </div>
 
                     <figure class="testimony__picture">
-                        <img src="./images/pet3.jpg" class="testimony__img">
+                        <img src="./images/comida_vet.jpg" class="testimony__img">
                     </figure>
                 </section>
 
                 <section class="testimony__body" data-id="4">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Metemos algo aqui, <span>Referente a la Veterinaria.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                        <h2 class="subtitle">🏷️ Protege a tu mascota en todo momento 🐾 </span></h2>
+                        <p class="testimony__review">Muchas mascotas se pierden cada año por no llevar una identificación adecuada. Un collar con placa y un microchip son herramientas clave para que, en caso de extravío, puedan ser identificadas y regresadas a casa de forma segura. Además, contar con un sistema de identificación actualizado puede marcar la diferencia en una emergencia. Protege a tu mascota asegurándote de que siempre tenga una forma de ser reconocida.</p>
                     </div>
 
                     <figure class="testimony__picture">
-                        <img src="./images/pet4.jpg" class="testimony__img">
+                        <img src="./images/identificacion_vet.jpg" class="testimony__img">
                     </figure>
                 </section>
 
@@ -158,69 +157,51 @@
             </div>
         </section>
 
-        <section class="questions container">
+        <section id="preguntas" class="questions container">
             <h2 class="subtitle">Preguntas frecuentes</h2>
-            <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
-                doloribus neque perspiciatis sapiente fuga.</p>
+            <p class="questions__paragraph">Cuidar de tu mascota implica muchas dudas, desde su alimentación y salud hasta su higiene y bienestar. En esta sección, encontrarás respuestas a preguntas comunes. También te contamos más sobre nuestros servicios y cómo podemos ayudarte a mantener a tu mascota sana y feliz. Si tienes más consultas, no dudes en contactarnos.</p>
 
             <section class="questions__container">
                 <article class="questions__padding">
                     <div class="questions__answer">
-                        <h3 class="questions__title">Primera pregunta que meteremos
+                        <h3 class="questions__title">¿Cuáles son las vacunas obligatorias para mi mascota?
                             <span class="questions__arrow">
                                 <img src="./images/arrow.svg" class="questions__img">
                             </span>
                         </h3>
 
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
+                        <p class="questions__show">Las vacunas son esenciales para que tu mascota crezca sana y protegida. En perros, las más importantes son la antirrábica y la séxtuple, que los cuida de enfermedades como moquillo y parvovirus. En gatos, la triple felina es clave para prevenir infecciones comunes. Dependiendo de su estilo de vida, pueden necesitar vacunas adicionales. No te preocupes, tu veterinario te guiará en el mejor plan de vacunación para que tu compañero esté siempre seguro y feliz. ¡Su salud es nuestra prioridad! </p>
                     </div>
                 </article>
 
                 <article class="questions__padding">
                     <div class="questions__answer">
-                        <h3 class="questions__title">Segunda pregunta que meteremos
+                        <h3 class="questions__title">¿Cada cuánto tiempo debo bañar a mi mascota?
                             <span class="questions__arrow">
                                 <img src="./images/arrow.svg" class="questions__img">
                             </span>
                         </h3>
 
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
+                        <p class="questions__show">La frecuencia del baño depende de la raza y el estilo de vida de tu mascota. En perros, se recomienda cada 3 a 4 semanas, aunque los más activos o de pelo largo pueden necesitarlo antes. En gatos, solo es necesario en casos especiales, ya que ellos se acicalan solos. Lo importante es usar productos adecuados y hacer que el baño sea una experiencia agradable para ellos. ¡Así estarán frescos y felices! 🛁🐾</p>
                     </div>
                 </article>
 
                 <article class="questions__padding">
                     <div class="questions__answer">
-                        <h3 class="questions__title">Tercera pregunta que meteremos
+                        <h3 class="questions__title">¿Atienden emergencias y es necesario agendar una cita?
                             <span class="questions__arrow">
                                 <img src="./images/arrow.svg" class="questions__img">
                             </span>
                         </h3>
 
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
+                        <p class="questions__show">Sí, contamos con servicio de urgencias para atender a tu mascota cuando más lo necesite. Para consultas generales, recomendamos agendar una cita y así evitar tiempos de espera, pero si surge una emergencia, puedes acudir sin previa cita y te atenderemos lo antes posible. ¡Tu mascota siempre estará en buenas manos! 🐾✨</p>
                     </div>
                 </article>
             </section>
 
             <section class="questions__offer">
                 <h2 class="subtitle">¿Quieres reservar tu cita ahora?</h2>
-                <p class="questions__copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione
-                    architecto magnam, officiis ex porro vero est voluptates quaerat quibusdam illo veniam reprehenderit
-                    eius atque tempora iure ab non autem.</p>
+                <p class="questions__copy">Agendar una cita es rápido y sencillo. Reserva ahora y dale a tu mascota la atención que merece, sin esperas y con el mejor cuidado. ¡Estamos listos para recibirlos!</p>
                 <a href="#" class="cta">Contactate con nosotros</a>
             </section>
         </section>
@@ -228,19 +209,19 @@
         <footer class="footer">
             <section class="footer__container container">
                 <nav class="nav nav--footer">
-                    <h2 class="footer__title">Veterinaria Que tal raza.</h2>    
+                    <h2 class="footer__title">Clínica Veterinaria Que tal raza</h2>    
                     <ul class="nav__link nav__link--footer">
                         <li class="nav__items">
-                            <a href="#" class="nav__links">Servicios</a>
+                            <a href="#servicios" class="nav__links">Servicios</a>
                         </li>
                         <li class="nav__items">
-                            <a href="#" class="nav__links">Espcialistas</a>
+                            <a href="#especialistas" class="nav__links">Especialistas</a>
                         </li>
                         <li class="nav__items">
-                            <a href="#" class="nav__links">Ubícanos</a>
+                            <a href="#mapa" class="nav__links">Ubícanos</a>
                         </li>
                         <li class="nav__items">
-                            <a href="#" class="nav__links">Preguntas Frecuentes</a>
+                            <a href="#preguntas" class="nav__links">Preguntas Frecuentes</a>
                         </li>
                     </ul>
                 </nav>
@@ -253,7 +234,7 @@
                     <a href="#" class="footer__icons"><img src="./images/whatsapp.svg" class="footer__img"></a>
                 </div>
     
-                <h3 class="footer__copyright">Derechos reservados &copy; Banda del choclito (Carlos, Xio y a lider criminal Mochicienta)</h3>
+                <h3 class="footer__copyright">Derechos reservados &copy; Clínica Veterinaria Que Tal Raza</h3>
             </section>
         </footer>
     </main>
@@ -261,4 +242,5 @@
 
 <script src="./js/slider.js"></script>
 <script src="./js/questions.js  "></script>
+<script src="./js/menu.js"></script>
 </html>
