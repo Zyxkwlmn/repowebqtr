@@ -14,8 +14,8 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 1200px;
+    width: 95%;
+    max-width: 1400px;  
     margin: 0 auto;
     overflow: hidden;
     padding: var(--padding-container);
@@ -170,13 +170,16 @@ body {
     display: grid;
     gap: 1em;
     justify-items: center;
-    width: 260px;
+    width: auto;
     overflow: hidden;
     margin: 0 auto;
 }
 
 .about__icon {
-    width: 40px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover; 
+    display: block;
 }
 
 /* Vemos como arreglamos esto
@@ -271,7 +274,7 @@ body {
     grid-row: 1/2;
     opacity: 0;
     pointer-events: none;
-    line-height: 1.8; 
+    line-height: 1.5; 
 }
 
 
