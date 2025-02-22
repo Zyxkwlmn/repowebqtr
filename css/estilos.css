@@ -180,6 +180,7 @@ body {
     height: 350px;
     object-fit: cover; 
     display: block;
+    object-position: center center; /* Centra la imagen para evitar cortes feos */
 }
 
 /* Vemos como arreglamos esto
