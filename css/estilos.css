@@ -635,4 +635,10 @@ body {
         width: 100%;
         */
     }
+
+    @media (max-width: 600px) {
+        .about__main {
+            grid-template-columns: 1fr; /* Una sola columna */
+        }
+    }
 }
