@@ -225,7 +225,9 @@ body {
     display: block;
 }*/
 
-
+.about__title{
+    color: #6f1747;
+}
 /* Staffvet */
 
 .staffvet{
@@ -669,3 +671,4 @@ body {
   font-family: 'League Spartan', sans-serif;
   font-size: 22px;     /* súbelo un poco (si antes era 16px) */
 }
+
