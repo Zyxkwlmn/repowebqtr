@@ -73,7 +73,10 @@ body {
 .nav__title {
   font-family: 'League Spartan', sans-serif;
   font-weight: 700;    /* bold */
-  font-size: 2.5rem;     /* ajusta según lo que tenías antes */
+  font-size: 2rem;
+  white-space: normal;     /* permite que el texto se envuelva */
+  overflow: visible;       /* evita que se corte */
+  word-break: break-word;  /* rompe palabras si es necesario */
 }
 
 
@@ -656,7 +659,20 @@ body {
         margin:0;
         width: 100%;
         */
+        
     }
+}
+
+@media screen and (max-width: 768px) {
+  .nav__title {
+    font-size: 1.4rem;      /* más pequeño en móviles */
+    text-align: center;     /* opcional: centra el texto */
+  }
+
+  .nav__logo {
+    flex-direction: column; /* apila logo y título verticalmente */
+    align-items: center;
+  }
 }
 
 /* Fuente */
