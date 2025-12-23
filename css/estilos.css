@@ -663,18 +663,6 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) {
-  .nav__title {
-    font-size: 1.4rem;      /* más pequeño en móviles */
-    text-align: center;     /* opcional: centra el texto */
-  }
-
-  .nav__logo {
-    flex-direction: column; /* apila logo y título verticalmente */
-    align-items: center;
-  }
-}
-
 /* Fuente */
 
 body {
